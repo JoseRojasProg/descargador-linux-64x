@@ -1,3 +1,4 @@
+<!-- BANNER DE PROMOCIÓN DEL CANAL -->
 > ### 🌊 ¡Únete a nuestro canal de Telegram!
 > **Proyecto Ola Digital** es una iniciativa para potenciar el aprendizaje técnico y el software libre.
 > 📢 **[¡Haz clic aquí para unirte al Canal de Telegram!](https://t.me/ProyectoOlaDigital)**
@@ -87,9 +88,13 @@ Para descargar videos privados (Instagram/Facebook), coloca un archivo `cookies.
 ---
 
 ## 📂 Estructura del proyecto
+<small>
+<pre>
 descargador_gui/
 ├── main.py          ← App principal (Flet)
 ├── empaquetar.py    ← Script de empaquetado
 ├── README.md        ← Documentación
 ├── cookies.txt      ← Opcional (No subir a GitHub por seguridad)
 └── assets/          ← Íconos y recursos gráficos
+</pre>
+</small>
