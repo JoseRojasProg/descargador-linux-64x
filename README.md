@@ -8,7 +8,7 @@
 
 # Descargador de Videos — GUI (Proyecto Ola Digital)
 
-Descargador de videos con interfaz gráfica moderna para **Windows y Linux**.
+Descargador de videos con interfaz gráfica moderna para **Linux**.
 Soporta: YouTube, Facebook, Instagram, X (Twitter) y TikTok.
 
 `Flet 0.84` · `Python 3.12` · `yt-dlp`
@@ -17,7 +17,6 @@ Soporta: YouTube, Facebook, Instagram, X (Twitter) y TikTok.
 
 | Sistema Operativo | Arquitectura | Estado |
 |---|---|---|
-| **Windows** | 64 bits | ✅ Soportado |
 | **Linux** | 64 bits | ✅ Soportado |
 
 > **Nota importante:** Este es un programa de escritorio empaquetado nativamente. No funciona en dispositivos móviles.
@@ -32,7 +31,6 @@ Para trabajar en el entorno de desarrollo, asegúrate de tener instalado Python 
 `pip install -r requirements.txt`
 
 **Configuración de FFmpeg (Requerido para modo HD y MP3):**
-* **Windows:** Descarga desde https://ffmpeg.org/download.html y añade `ffmpeg.exe` a tu variable de entorno PATH.
 * **Linux:** Instala mediante `sudo apt install ffmpeg` o `sudo dnf install ffmpeg`.
 
 ### Ejecución y Empaquetado
@@ -49,23 +47,17 @@ Para una gestión limpia del repositorio, los ejecutables **no** se suben direct
 1. Ve a la pestaña **Releases** en este repositorio.
 2. Crea una **New Release**.
 3. Sube los archivos `.zip` generados con la nomenclatura estándar:
-   - `DescargadorVideos_v2_Windows_64Bits.zip`
-   - `DescargadorVideos_v2_Linux_64Bits.zip`
+    - `Descargador_Lin64.zip`
    
 ---
 
 ## 📥 Guía de Instalación para Usuarios
 
-### Windows (64 bits)
-1. Descarga el `.zip` de la sección Releases.
-2. Descomprime en una carpeta de tu preferencia.
-3. Ejecuta `DescargadorVideos.exe`. ¡No requiere instalación!
-
 ### Linux (64 bits)
 1. Descarga el `.zip` correspondiente a tu arquitectura.
-2. Descomprime: `unzip DescargadorVideos_v2_Linux_64Bits.zip`
+2. Descomprime: `unzip Descargador_Lin64.zip`
 3. Otorga permisos: `chmod +x DescargadorVideos`
-4. Ejecuta: `./DescargadorVideos`
+4. Ejecuta: `./Descargador_Lin64`
 
 ---
 
